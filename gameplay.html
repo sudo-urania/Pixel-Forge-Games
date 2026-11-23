@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      Final Exam 2
+      Gaming Company Website
+
+      Author: Sarah Imhoff
+      Date: 11/16/2026
+
+      Filename: gameplay.html
+   -->
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Pixel Forge Games - Game Play</title>
+
+   <!-- Link to the shared style sheet -->
+   <link rel="stylesheet" href="styles/style.css" />
+
+   <!-- Link to the gameplay JavaScript file -->
+   <script src="js/gameplay.js" defer></script>
+</head>
+
+<body>
+
+   <!-- Company header -->
+   <header>
+      <img src="images/logo.jpg" alt="Pixel Forge Games Logo" />
+      <h1>Pixel Forge Games</h1>
+   </header>
+
+   <!-- Navigation menu -->
+   <nav>
+      <ul>
+         <li><a href="purchasegames.html">Purchase Games</a></li>
+         <li><a href="gamescart.html">Games Cart</a></li>
+         <li><a href="infosquare.html">Info Square</a></li>
+         <li><a href="listgames.html">List Games</a></li>
+         <li><a href="gameplay.html">Game Play</a></li>
+      </ul>
+   </nav>
+
+   <!-- Main page content -->
+   <main>
+
+      <!-- Page heading -->
+      <h2>Card Game</h2>
+
+      <!-- Player 1 heading -->
+      <h3>Player 1</h3>
+
+      <!-- Player 1 cards -->
+      <div class="cardHand" id="player1">
+         <img alt="Player 1 card" />
+         <img alt="Player 1 card" />
+         <img alt="Player 1 card" />
+         <img alt="Player 1 card" />
+      </div>
+
+      <!-- Player 2 heading -->
+      <h3>Player 2</h3>
+
+      <!-- Player 2 cards -->
+      <div class="cardHand" id="player2">
+         <img alt="Player 2 card" />
+         <img alt="Player 2 card" />
+         <img alt="Player 2 card" />
+         <img alt="Player 2 card" />
+      </div>
+
+      <!-- Deal cards button -->
+      <input type="button" value="Deal Cards" id="deal" />
+
+      <!-- Display the result of the game -->
+      <h3 id="result"></h3>
+
+   </main>
+
+</body>
+</html>

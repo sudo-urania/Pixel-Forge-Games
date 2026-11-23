@@ -1,0 +1,39 @@
+{
+   "thegames": [
+      {
+         "SKU": "GC-002",
+         "Name": "Great Game",
+         "Description": "A Great Game",
+         "Price": 23.23,
+         "Quantity": 12
+      },
+      {
+         "SKU": "GC-005",
+         "Name": "Okay Game",
+         "Description": "An Okayish Game",
+         "Price": 52.52,
+         "Quantity": 8
+      },
+      {
+         "SKU": "GC-019",
+         "Name": "Basic Game",
+         "Description": "A Very Basic Game",
+         "Price": 99.59,
+         "Quantity": 20
+      },
+      {
+         "SKU": "GC-026",
+         "Name": "Advanced Game",
+         "Description": "The Most Advanced Game",
+         "Price": 1.05,
+         "Quantity": 15
+      },
+      {
+         "SKU": "GC-007",
+         "Name": "Interesting Game",
+         "Description": "An Interesting Game",
+         "Price": 11.11,
+         "Quantity": 25
+      }
+   ]
+}

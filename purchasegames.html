@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      Final Exam 2
+      Gaming Company Website
+
+      Author: Sarah Imhoff
+      Date: 11/16/2026
+
+      Filename: purchasegames.html
+   -->
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Pixel Forge Games - Purchase Games</title>
+
+   <!-- Link to the shared style sheet -->
+   <link rel="stylesheet" href="styles/style.css" />
+
+   <!-- Link to the purchase games JavaScript file -->
+   <script src="js/purchasegames.js" defer></script>
+</head>
+
+<body>
+
+   <!-- Company header -->
+   <header>
+
+      <!-- Company image -->
+      <img src="images/logo.jpg" alt="Pixel Forge Games Logo" />
+
+      <!-- Company name -->
+      <h1>Pixel Forge Games</h1>
+
+   </header>
+
+   <!-- Navigation menu -->
+   <nav>
+      <ul>
+         <li><a href="purchasegames.html">Purchase Games</a></li>
+         <li><a href="gamescart.html">Games Cart</a></li>
+         <li><a href="infosquare.html">Info Square</a></li>
+         <li><a href="listgames.html">List Games</a></li>
+         <li><a href="gameplay.html">Game Play</a></li>
+      </ul>
+   </nav>
+
+   <!-- Main page content -->
+   <main>
+
+      <!-- Page heading -->
+      <h2>Purchase Games</h2>
+
+      <!-- Purchase form -->
+      <div id="purchaseForm">
+
+         <!-- Game selection label -->
+         <label for="game">Select Game:</label>
+
+         <!-- Game selection list -->
+         <select id="game">
+            <option value="GC-002 & Great Game & A Great Game & 23.23">Great Game - $23.23</option>
+            <option value="GC-005 & Okay Game & An Okayish Game & 52.52">Okay Game - $52.52</option>
+            <option value="GC-019 & Basic Game & A Very Basic Game & 99.59">Basic Game - $99.59</option>
+            <option value="GC-026 & Advanced Game & The Most Advanced Game & 1.05">Advanced Game - $1.05</option>
+            <option value="GC-007 & Interesting Game & An Interesting Game & 11.11">Interesting Game - $11.11</option>
+         </select>
+
+         <!-- Quantity label -->
+         <label for="quantity">Quantity:</label>
+
+         <!-- Quantity selection list -->
+         <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+         </select>
+
+         <!-- Button used to add the selected game to the cart -->
+         <input type="button" value="Add to Cart" id="submitButton" />
+
+         <!-- Button used to open the shopping cart page -->
+         <input type="button" value="View Cart" id="viewCart" />
+
+
+      </div>
+
+   </main>
+
+</body>
+</html>
